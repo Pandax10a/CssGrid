@@ -6,3 +6,23 @@
 img {
     width: 100%;
 }
+
+div header {
+    display: grid;
+    grid-auto-flow: column;
+    height: 50px;
+}
+header img {
+    justify-self: start;
+    align-self: center;
+}
+header nav {
+    justify-self: end;
+}
+div {
+    align-items: center;
+}
+header h1 {
+    align-self: start;
+    justify-self: center;
+}
